@@ -1,0 +1,48 @@
+@import url('../../App.css');
+
+.contenedor-lista {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--border-color);
+}
+.contenedor-lista .contenedor-filtro{
+    width: 322px;
+    margin-top: 5px;
+    padding: 0 10px;
+    /* border: 1px solid blue; */
+    background-color: white;
+}
+
+.contenedor-lista .contenedor-grilla{
+    width: calc(100vw - 322px);
+    /* border: 1px solid red; */
+    background-color: var(--border-color);
+}
+
+.contenedor-lista .contenedor-grilla .pagination{
+    display: inline-block;
+    background-color: white;
+    width: 100%;
+    padding: 15px 0;
+}
+.contenedor-lista .contenedor-grilla .pagination div{
+    /* width: 16vw; */
+    width: max-content;
+    margin: auto;
+    border: 1px solid;
+}
+.contenedor-lista .contenedor-grilla .pagination div a{
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+.contenedor-lista .contenedor-grilla .pagination div a.active{
+    background-color: #12a8e5ff;
+    color: white;
+    border-radius: 5px;
+}
+.contenedor-lista .contenedor-grilla .pagination div a:hover:not(.active){
+    background-color: #ddd;
+    border-radius: 5px;
+}

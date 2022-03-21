@@ -1,0 +1,16 @@
+@import url('../../App.css');
+
+.contenedor-producto{
+    border: 1px solid var(--border-color);
+    background-color: white;
+    width: 230px;
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+}
+.contenedor-producto img{
+    width: 100%;
+    /* border: 1px solid red; */
+    
+}

@@ -1,0 +1,89 @@
+@import url('../../App.css');
+
+:root{
+    --main-color: #12a8e5ff;
+    --second-color: #2e3192ff;
+    --border-d: #7209b7;
+}
+
+
+/* hr{
+  margin: 0 0 5px 0;
+} */
+
+.contact{
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 5px 0;
+}
+.contact p{
+    margin: 0;
+    padding: 0;
+    color: #7e7d7d;
+}
+.contact box-icon{
+    margin-left: 10px;
+}
+
+.conteiner-header{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 5px  5px 5px;
+}
+.conteiner-header .container-nav{
+    /* border: 1px solid blue; */
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 5px;
+}
+    .conteiner-header .container-nav img{
+    /* border: 1px solid purple; */
+    width: 200px;
+    }
+    .conteiner-header .container-nav .buscador
+    {
+        /* border: 1px solid red; */
+        width: 40vw;
+        display: flex;
+        align-items: center;
+    }
+    
+    .conteiner-header .container-nav .buscador input{
+        width: 90%;
+        height: 44px;
+        border-radius: 0;
+        border-top: 2px solid var(--border-color);
+        border-bottom: 2px solid var(--border-color);
+        border-left: 2px solid var(--border-color);
+        padding-left: 15px;
+        border-radius: 10px 0px 0px 10px;
+    }
+    .conteiner-header .container-nav .buscador input:focus{
+        border-top: 3px solid var(--second-color);
+        border-bottom: 3px solid var(--second-color);
+        border-left: 3px solid var(--second-color);
+        border-right: none;
+        outline: none;
+    }
+
+    .conteiner-header .container-nav .buscador button{
+        height: 44px;
+        border-radius: 0;
+        border: none;
+        padding: 0 10px;
+        background-color: var(--main-color);
+        border-radius: 0px 10px 10px 0px;
+    }
+    .conteiner-header .container-nav .buscador button:hover{
+        background-color: var(--second-color);
+    }
+
+
+    /* .conteiner-header .container-nav .carrito
+    {
+        /* border: 1px solid green; 
+    } */

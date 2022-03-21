@@ -1,0 +1,34 @@
+import React from 'react';
+import Body from './body';
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link
+  } from "react-router-dom";
+
+const Conceptosbasicos = () => {
+    return (
+        <div>
+            <Router>
+                
+                <Switch>
+                    <Route exact path="/">
+                        <Body Npage={1}/>
+                    </Route>
+                    <Route exact path="/minicart">
+                        <h2>Your Cart</h2>
+                    </Route>
+                    {/* <Route exact path="/acerca" >
+                        <h2>Acerca</h2>
+                    </Route>
+                    <Route exact path="/contacto" >
+                        <h2>Contacto</h2>
+                    </Route>                     */}
+                </Switch>
+            </Router>
+        </div>
+    );
+}
+
+export default Conceptosbasicos;
