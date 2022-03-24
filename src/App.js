@@ -9,9 +9,7 @@ function App() {
   return (
     <div>
       <Header/>
-      {/* <hr/> */}
       <Conceptosbasicos/>
-      {/* <RouterLinks/> */}
     </div>
   );
 }

@@ -17,12 +17,18 @@
     margin: 0;
     padding: 5px 0;
 }
-.contact p{
+.contact div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+}
+.contact div p{
     margin: 0;
     padding: 0;
     color: #7e7d7d;
 }
-.contact box-icon{
+.contact div box-icon{
     margin-left: 10px;
 }
 
@@ -83,7 +89,45 @@
     }
 
 
-    /* .conteiner-header .container-nav .carrito
+    .conteiner-header .container-nav .carrito
     {
-        /* border: 1px solid green; 
-    } */
+        width: 20vw;
+        display: flex;
+        justify-content: space-between;
+        border: 1px solid red;
+    }
+    .conteiner-header .container-nav .carrito nav
+    {
+        width: 100%;
+        border: 1px solid purple;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .conteiner-header .container-nav .carrito nav a{
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: black;
+    }
+.conteiner-Links{
+    width: 100vw;
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+}
+.conteiner-Links .menu{
+    /* border: 1px solid green; */
+    padding: 10px 50px;
+    margin: auto 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.conteiner-Links a{
+    /* border: 1px solid blue; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 5px;
+}

@@ -19,7 +19,7 @@ const Body = ({Npage}) => {
     const [loading, setloading] = useState(false);
 
     let api = helpHttp();
-    let url = "http://localhost:8081/MovilFabian/v1/product";
+    let url = "http://localhost:8081/ApiTellnovav1/public/products/all";
 
     useEffect(() => {
         setloading(true);

@@ -6,7 +6,7 @@ const Grilla = ({data}) => {
 
     const [selectedPage, setselectedPage] = useState(1);
 
-    let count = data.product.length;
+    let count = data.length;
     let max = 50;
     let numPages = count/max;
     let pages = []
@@ -29,7 +29,7 @@ const Grilla = ({data}) => {
                 {data.length === 0 ?
                     (<h2>No se encontraron datos</h2>)
                 : 
-                    (<>{data.product.map((el) => 
+                    (<>{data.map((el) => 
                         
                         <Product
                             key={el.Id_Product}
